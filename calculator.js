@@ -6,6 +6,7 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
+
 // result is for returning the result of the calculation
 let result = 0;
 // display is for displaying the current state of the calculator
@@ -35,6 +36,8 @@ function calculate(num) {
     result = eval(result);
 }
 
+
+// The main function that starts the calculator
 function startCalculator() {
     // a helper function to get the last number in the command when no "=" is present
     function lastNum(command) {
