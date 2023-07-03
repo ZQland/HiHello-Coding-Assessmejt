@@ -26,7 +26,7 @@ Type "exit" to exit the application
 
 Type "c" to clear the terminal
 
-Type"=" to show the calculated result
+Type "=" to show the calculated result
 
 Any input other than numbers and operators will be considered invalid input (alphabet, space, other special characters etc.)
 
